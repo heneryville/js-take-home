@@ -1,3 +1,9 @@
+# What it is
+Included here is an ugliy little website for searching for universities in various countries.
+
+![alt text](http://s15.postimg.org/8q2rro2h7/Screen_Shot_2016_09_26_at_2_18_03_PM.png "Logo Title Text 1")
+It makes use of a simple REST API to get a list of universities in various countries, and list them. Your assignment will be to make a small number of modifications to the site. 
+
 # Requirements
 - services/universities.js right now uses callbacks. Convert it to instead return a Promise
 - Make the names clickable to a link to the university's website
