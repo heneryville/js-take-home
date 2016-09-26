@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  </head>
+  <body>
+    <ul>
+    {{#universities}}
+      <li>{{name}}</li>
+    {{/universities}}
+    </ul>
+
+    <form METHOD="GET">
+      <label for="query">Search by</label>
+      <input id="query" type="text" name="q" />
+    </form>
+  </body>
